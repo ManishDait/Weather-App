@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+    </head>
+
+    <body>
+
+        <header class="navbar">
+            <h2>Weather App</h2>
+            <div class="search-container">
+                <input type="search" placeholder="Search" id="field">
+                <button id="search">Search</button>
+            </div>
+        </header>
+
+        <div class="temp-container">
+            <div class="contain">
+                <p class="main-temp" id="temperature"></p>
+                <span class="celcius">&#8451</span>
+            </div>
+            
+            <div class="wheather-img">
+                <img src="" alt="weather-logo" id="logo" width="100">
+                <p id="weather" style="display: none;"></p>
+            </div>
+        </div>
+
+        <div class="banner-container">
+            <h1 class="location-banner" id="loc"></h1>
+            <p class="sub-contain" id="max-temp"></p>
+            <p id="time-date">time date</p>
+        </div>
+
+
+        
+        <div class="card-holder">
+            <div class="hourly" id="hourly">
+            
+            </div>
+        </div>
+        
+
+        
+
+
+        <div class="card-holder">
+
+            <div class="inside-contain">
+                <div class="card" id="card">
+
+                </div>
+    
+                <div class="card-d">
+                    
+                        <div class="card-containt-d">
+                            <p class="center-p">UV</p>
+                            <img src="./Assets/uv.png" width="50">
+                            <p class="center-p" id="uv">Low</p>
+                        </div>
+                        <div class="card-containt-d">
+                            <p class="center-p">Humidity </p>
+                            <img src="./Assets/humidity.png" width="50">
+                            <p class="center-p" id="humidity"></p>
+                        </div>
+                        <div class="card-containt-d">
+                            <p class="center-p">Wind </p>
+                            <img src="./Assets/wind.png" width="50">
+                            <p class="center-p" id="wind"></p>
+                        </div>                    
+                        
+                </div>
+    
+                <div class="card-d">
+                    
+                    <div class="card-containt-s">
+                        <p class="center-p">Sunrise</p>
+                        <img src="./Assets/rise.png" width="130">
+                        <p class="center-p" id="riseTime">Low</p>
+                    </div>
+                    <div class="card-containt-s">
+                        <p class="center-p">Sunset </p>
+                        <img src="./Assets/set.png" width="130">
+                        <p class="center-p" id="setTime">6768</p>
+                    </div>              
+                    
+            </div>
+    
+            </div>
+
+           
+
+           
+
+        </div>
+        
+
+
+        <script src="./Javascripts/weather.js"></script>
+    </body>
+</html>

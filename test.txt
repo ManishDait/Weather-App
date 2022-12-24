@@ -1,0 +1,14 @@
+ <div class="card" style=" border: 1px solid rgb(0, 174, 255);">
+                <div class="card-title" style="background-color: rgb(0, 174, 255);">
+                    <p style="color: white;">Wind Info</p>
+                </div>
+                <p class="sub-contain" id="pressure">press</p>
+                    <p class="sub-contain" id="precipitation">precip</p>
+                    <p class="sub-contain" id="hum">hum</p>
+                <div class="card-containt">
+                    <p class="main-contain" >30km/hr</p>
+                    <p class="sub-contain" id="degree">wi</p>
+                    <p class="sub-contain" id="speed">speed</p>
+                    <p class="sub-contain" id="direction">direction</p>
+                </div>
+            </div>
